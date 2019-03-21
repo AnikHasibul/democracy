@@ -28,7 +28,7 @@ func main() {
 
 func genEmail() string {
 	randStr := strconv.FormatInt(time.Now().UnixNano(), 36)
-	return randStr[5:] + "@grr.la"
+	return randStr[6:] + "@mail.ru"
 }
 
 func genPassword() string {
